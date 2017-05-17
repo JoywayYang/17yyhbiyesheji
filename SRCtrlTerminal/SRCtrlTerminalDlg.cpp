@@ -112,8 +112,8 @@ END_MESSAGE_MAP()
 BOOL CSRCtrlTerminalDlg::OnInitDialog()
 {
     /*以下两句用来在MFC中打开一个控制台*/
-    AllocConsole();
-	freopen("CONOUT$", "a+", stdout);
+    //AllocConsole();
+	//freopen("CONOUT$", "a+", stdout);
 	CDialogEx::OnInitDialog();
 	ASSERT((IDM_ABOUTBOX & 0xFFF0) == IDM_ABOUTBOX);
 	ASSERT(IDM_ABOUTBOX < 0xF000);
